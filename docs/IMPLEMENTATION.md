@@ -2,8 +2,7 @@
 This JavaScript game is intended to emulate the Atari 2600 game Missile Command, with some some new modern features
 ## Architecture
 1) I imagine this will be mostly vanilla JS using CanvasJS as an animator.
-2) Will probably need a physics engine to handle incoming missiles
-3) Components
+2) Components
     * Turret/projectiles
     * Bases
     * Incoming missile graphics
@@ -23,7 +22,12 @@ I suspect that I can write the entire game without any backend and keep all of t
 
 ## Implementation
 ### Day 1
-Create classes for all entities
+1) Create Utility functions for vector math
+2) Create inherited MovingObjects class
+3) Create classes for:
+    * missiles
+    * bases
+    * projectiles
 
 ### Day 2
 Integrate classes with Canvas, get game working with basic functions, no gameplay yet
