@@ -1,0 +1,10 @@
+#canvas {
+  background-color: black;
+  margin: auto
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: blue
+}
