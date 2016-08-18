@@ -4,19 +4,20 @@
   "description": "An emulation of the Atari 2600 classic, Missile Command",
   "main": "index.js",
   "scripts": {
+    "webpack": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukelliot/JS-project.git"
+    "url": "git+https://github.com/lukelliot/Missile-Defense"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lukelliot/JS-project/issues"
+    "url": "https://github.com/lukelliot/Missile-Defenseissues"
   },
-  "homepage": "https://github.com/lukelliot/JS-project#readme",
+  "homepage": "https://github.com/lukelliot/Missile-Defense#readme",
   "dependencies": {
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.5",
