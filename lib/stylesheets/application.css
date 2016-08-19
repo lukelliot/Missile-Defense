@@ -1,10 +1,17 @@
-#canvas {
-  background-color: black;
-  margin: auto
-}
-
 body {
   display: flex;
   align-items: center;
-  background-color: blue
+  background-color: black
+}
+
+#bg {
+  visibility: hidden;
+  position: absolute;
+}
+
+#canvas {
+  box-sizing: border-box;
+  background: transparent;
+  margin: auto;
+  border: 1px solid #fdf
 }
