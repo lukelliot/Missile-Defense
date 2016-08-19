@@ -14,7 +14,7 @@ This JavaScript game is intended to emulate the Atari 2600 game Missile Command,
       * Number of projectiles fire
 
 ## Wireframes
-![missile-defense](./image.jpg)
+![missile-defense](./images/gameplay.jpg)
 
 ## Backend
 
