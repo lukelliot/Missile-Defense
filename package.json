@@ -7,7 +7,7 @@
     "webpack": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "./node_modules/.bin/webpack",
-    "script": ""
+    "start": ""
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,6 @@
   },
   "engines": {
     "node": "6.3.1",
-    "npm": "3.10.x"
+    "npm": "3.10.3"
   }
 }
