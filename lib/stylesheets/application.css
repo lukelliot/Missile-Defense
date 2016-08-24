@@ -1,19 +1,82 @@
-body {
-  display: flex;
+html, body, a {
   align-items: center;
-  background-color: black
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  transition: 500ms all ease-in-out;
 }
 
-#bg {
-  visibility: hidden;
-  position: absolute;
+nav.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../docs/images/bg.jpg');
+}
+
+footer.footer-links {
+  background-color: #96EE89;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-left {
+  border-right: 1px solid black;
+  font-family: 'PressStart';
+  padding: 24px 20px 0px 20px
+}
+
+.nav-left a {
+  color: black;
+  padding: 12px;
+  border-radius: 25px
+}
+
+.nav-left a:hover {
+  box-shadow: 0px 0px 5px black;
+}
+
+.nav-right {
+  border-left: 1px solid black;
+}
+
+a.github-link {
+  box-sizing: border-box;
+}
+
+a.linkedin-link {
+  box-sizing: border-box;
+}
+
+a.github-link img {
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+a.linkedin-link img {
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+a.github-link img:hover, a.linkedin-link img:hover {
+  box-shadow: 0px 0px 5px black;
+  transition: 500ms all ease-in-out;
 }
 
 #canvas {
   box-sizing: border-box;
+  box-shadow: 0px 0px 10px #96EE89;
+  border-radius: 20px;
   background: transparent;
   margin: auto;
-  border: 1px solid #fdf;
+  border: 3px solid #000;
   cursor: crosshair;
 }
 
