@@ -17,7 +17,7 @@ Missile Defense is a clone of the Atari 2600 classic: [Missile Command][1].
   Any surviving cities are worth 300pts at the end of the level.
   Each of your missiles remaining is worth 100pts at the end of the round.
 
-  If your turret is hit it is deactivated for the remainder of the level. If the enemy missiles manage to destroy all of your cities, you lose!
+  If your turret is hit it is deactivated for the remainder of the level and you will lose your missile bonus. If the enemy missiles manage to destroy all of your cities, you lose!
 
   ![Gameplay][4]
 
