@@ -13,5 +13,13 @@ body {
   box-sizing: border-box;
   background: transparent;
   margin: auto;
-  border: 1px solid #fdf
+  border: 1px solid #fdf;
+  cursor: crosshair;
+}
+
+@font-face {
+  font-family: 'PressStart';
+  src: url('../fonts/PressStart2P-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
