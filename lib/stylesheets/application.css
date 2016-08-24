@@ -21,6 +21,7 @@ footer.footer-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-radius: 30px;
 }
 
 .nav-left {
@@ -55,14 +56,14 @@ a.github-link img {
   padding: 5px;
   margin-left: 10px;
   margin-top: 5px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 a.linkedin-link img {
   padding: 5px;
   margin-right: 10px;
   margin-top: 5px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 a.github-link img:hover, a.linkedin-link img:hover {
