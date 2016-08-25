@@ -23,8 +23,10 @@ Missile Defense is a clone of the Atari 2600 classic: [Missile Command][1].
 
 
 ## Features
-  ### Architecture
-  ##### Classes
+
+### Architecture
+
+##### Classes
   * `City`
   * `EnemyMissile`
   * `Missile`
@@ -46,12 +48,15 @@ All code adheres to the single purpose principle leading to 'dumb' classes, allo
   * Invincibility for your turret
   * Larger detonation radius
   * Unlimited missiles
+
 #### User Accounts for Saving Scores
   * Postgresql database
   * User SignIn/Logout
+
 #### React Frontend Components for Handling Leaderboard
   * SPA leaderboard
   * Various sorting for scores; top ten, all times, etc.
+
 #### Moving Turret
   * Use `Math.atan2()` to handle turret direction and animate a turret
   * Turret will disappear when destroyed signaling to user that they've been hit
