@@ -90,6 +90,8 @@ a.github-link img:hover, a.linkedin-link img:hover {
   margin: auto;
   border: 3px solid #000;
   cursor: crosshair;
+  width: 800px;
+  height: 600px;
 }
 
 @font-face {
