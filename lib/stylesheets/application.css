@@ -9,6 +9,15 @@ html, body, a {
   transition: 500ms all ease-in-out;
 }
 
+footer * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 nav.content {
   height: 100%;
   display: flex;
@@ -57,6 +66,7 @@ a.github-link img {
   margin-left: 10px;
   margin-top: 5px;
   border-radius: 20px;
+  transition: 500ms all ease-in-out;
 }
 
 a.linkedin-link img {
@@ -64,6 +74,7 @@ a.linkedin-link img {
   margin-right: 10px;
   margin-top: 5px;
   border-radius: 20px;
+  transition: 500ms all ease-in-out;
 }
 
 a.github-link img:hover, a.linkedin-link img:hover {
