@@ -41,6 +41,8 @@ All code adheres to the single purpose principle leading to 'dumb' classes, allo
 
   Missile Defense's animation is handled by `window.requestAnimationFrame()` which optimizes the frame rate, giving the user smooth gameplay. It is recursively called, saving the current timer Id as an instance variable in the class `Interface`.
 
+Turret rotation is handled by function found in `Calc` module utilizing the `Math.atan2` method to find the angle of the mouse relative to the x axis. A `mouseover` listener is used to render `ctx.rotate`. The turret will disappear when destroyed.
+
 
 ### Features Coming Soon!
 
@@ -57,9 +59,6 @@ All code adheres to the single purpose principle leading to 'dumb' classes, allo
   * SPA leaderboard
   * Various sorting for scores; top ten, all times, etc.
 
-#### Moving Turret
-  * Use `Math.atan2()` to handle turret direction and animate a turret
-  * Turret will disappear when destroyed signaling to user that they've been hit
 
 
 
