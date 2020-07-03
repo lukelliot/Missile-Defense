@@ -68,5 +68,5 @@ Turret rotation is handled by function found in `Calc` module utilizing the `Mat
 
   [1]: https://en.wikipedia.org/wiki/Missile_Command
   [2]: ./docs/images/main.png
-  [3]: http://www.missile-defense.online
+  [3]: https://www.missile-defense.com
   [4]: ./docs/images/gameplay.png
