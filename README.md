@@ -46,7 +46,7 @@ All code adheres to the single purpose principle leading to 'dumb' classes, allo
 Turret rotation is handled by function found in `Calc` module utilizing the `Math.atan2` method to find the angle of the mouse relative to the x axis. A `mouseover` listener is used to render `ctx.rotate`. The turret will disappear when destroyed.
 
 
-### Features Coming Soon!
+### TODO!
 
 #### Timed Powerups using `requestAnimationFrame`'s timer
   * Invincibility for your turret
