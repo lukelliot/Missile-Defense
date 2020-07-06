@@ -1,5 +1,5 @@
 # Missile Defense!
-### [Missile Defense][3]
+### [Play Missile Defense][3]
 ![Start][2]
 
 Missile Defense is a clone of the Atari 2600 classic: [Missile Command][1].
